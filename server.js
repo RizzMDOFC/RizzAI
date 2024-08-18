@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.static('public'));
 app.use(express.json());
 
-const databasePath = path.join(__dirname, 'data', 'database.json');
+const databasePath = path.join(__dirname, 'database.json');
 
 // Load the database
 const loadDatabase = () => {
